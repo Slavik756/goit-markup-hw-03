@@ -12,16 +12,46 @@ a {
 ul {
     list-style: none;
 }
- .container-1 {
+ .container-1 /* Обнулення дефолтних маржинів для заголовків та параграфів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* Обнулення дефолтних маржинів та лівого падінгу для списків */
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+/* Робимо зображення блочними елементами */
+img {
+    display: block;
+    max-width: 100%;
+    /* Забезпечує адаптивність зображення */
+    height: auto;
+    /* Зберігає пропорції зображення */
+}
+
+/* Визначення ширини та падінгів для контейнера */
+.container-1 {
      display: flex;
  }
-
- .container {
-     width: 1158px;
-     margin: 0 auto;
-     padding: 0 15px;
- }
-
+.container{
+    width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px;
+}
+.menu {
+   display: flex;
+   margin-right: 40px;
+}
  .nav-logo {
      display: flex;
      align-items: center;
@@ -47,6 +77,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .nav-link:hover {
@@ -60,6 +91,10 @@ ul {
 .address {
     
     font-style: normal
+}
+.address-contacts {
+    display: flex;
+    margin-right: 40px
 }
 
 .address-link {
