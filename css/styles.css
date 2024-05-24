@@ -100,7 +100,12 @@ img {
 .page {
     background-color: #2e2f42;
 }
+.page-cont {
+    padding: 188px 0;
+}
+.default-class {
 
+}
 .page-title {
     font-size: 56px;
     line-height: 1.07;
@@ -108,7 +113,9 @@ img {
     letter-spacing: 0.02em;
     color: #ffffff;
 }
-
+.page-h {
+    max-width: 496px;
+}
 .button {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
@@ -121,7 +128,15 @@ img {
 
 
 }
-
+.button-cont {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
+}
 .button:hover {
     background-color: #404BBF;
 }
