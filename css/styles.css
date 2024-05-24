@@ -40,16 +40,22 @@ img {
 }
 
 /* Визначення ширини та падінгів для контейнера */
+/* container */
+.container {
+    margin: 0 auto;
+    width: 1158px;
+    padding: 0 15px;
+}
+
+/* Header */
 .header {
+    background: #fff;
     border-bottom: 1px solid #e7e9fc;
 }
-.container-1 {
-     display: flex;
- }
-.container{
-    width: 1158px;
-        margin: 0 auto;
-        padding: 0 15px;
+
+.header-container {
+    display: flex;
+    align-items: center;
 }
 .menu {
    display: flex;
