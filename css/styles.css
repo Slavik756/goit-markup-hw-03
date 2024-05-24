@@ -234,7 +234,7 @@ img {
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
- .visually-hidden h2 {
+ .visually-hidden {
      position: absolute;
      width: 1px;
      height: 1px;
