@@ -150,6 +150,9 @@ img {
         gap: 24px;
         
 }
+.container-info {
+    padding: 32px 0;
+}
 .content-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -157,6 +160,8 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
      font-weight: bold;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .content-main {
     width: calc((100% - 72px) / 4);
@@ -166,6 +171,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
     margin-bottom: 8px;
 }
 
