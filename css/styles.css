@@ -91,7 +91,7 @@ img {
 
 .address {
     
-    font-style: normal
+    font-style: normal;
 }
 .address-contacts {
     display: flex;
@@ -117,6 +117,7 @@ img {
 
 .page {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .page-title {
@@ -125,6 +126,7 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
 }
 
 .button {
@@ -136,8 +138,13 @@ img {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-
-
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .button:hover {
