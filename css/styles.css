@@ -99,11 +99,11 @@ img {
 
 .page {
     background-color: #2e2f42;
-    
+    padding: 188px 0;
 }
 
 .page-cont {
-padding: 188px 0;
+
 }
 .page-title {
     font-size: 56px;
