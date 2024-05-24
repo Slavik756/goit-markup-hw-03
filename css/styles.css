@@ -5,42 +5,35 @@ body {
     background-color: #FFFFFF;
 }
 
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
 a {
     text-decoration: none;
 }
 
-ul {
-    list-style: none;
-}
- .container-1 /* Обнулення дефолтних маржинів для заголовків та параграфів */
+p,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-p {
-    margin: 0;
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-/* Обнулення дефолтних маржинів та лівого падінгу для списків */
-ul,
-ol {
-    margin: 0;
-    padding-left: 0;
+button {
+    crusor: pointer;
 }
 
-/* Робимо зображення блочними елементами */
 img {
     display: block;
-    max-width: 100%;
-    /* Забезпечує адаптивність зображення */
-    height: auto;
-    /* Зберігає пропорції зображення */
 }
-
-/* Визначення ширини та падінгів для контейнера */
-/* container */
 .container {
     margin: 0 auto;
     width: 1158px;
