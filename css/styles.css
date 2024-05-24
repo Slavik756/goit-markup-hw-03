@@ -118,7 +118,10 @@ img {
 .page {
     background-color: #2e2f42;
     padding: 188px 0;
-}
+   }
+   .container-hero {
+
+   }
 
 .page-title {
     font-size: 56px;
@@ -138,15 +141,17 @@ img {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    background-color: #4d5ae5;
-    border-radius: 4px;
-    cursor: pointer;
+   
 }
-
+.button-cont {
+    display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        background-color: #4d5ae5;
+        border-radius: 4px;
+        cursor: pointer;
+}
 .button:hover {
     background-color: #404BBF;
 }
