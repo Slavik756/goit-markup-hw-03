@@ -140,7 +140,9 @@ img {
 .button:focus {
     background-color: #404BBF;
 }
-
+.content {
+    padding: 120px 0;
+}
 .content-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -221,3 +223,6 @@ img {
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
+ .visually-hidden {
+    
+ }
