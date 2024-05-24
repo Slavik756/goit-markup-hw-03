@@ -81,6 +81,7 @@ ul {
 }
 
 .address {
+    margin-left: auto;
     font-style: normal
 }
 
@@ -89,6 +90,8 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: flex;
+    gap: 40px;
 }
 
 .address-link:hover {
