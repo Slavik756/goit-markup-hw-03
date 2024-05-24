@@ -111,6 +111,8 @@ img {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
+    display: block;
+        margin: 0 auto;
    
 }
 
