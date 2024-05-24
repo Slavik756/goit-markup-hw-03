@@ -123,11 +123,11 @@ img {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    display: block;
+    
 
 }
 .button-container {
-    display: block;
+    display: block; 
     min-width: 169px;
     height: 56px;
     border: none;
@@ -135,6 +135,7 @@ img {
     border-radius: 4px;
     cursor: pointer;
     display: flex;
+    margin: 0 auto;
 }
 .button:hover {
     background-color: #404BBF;
