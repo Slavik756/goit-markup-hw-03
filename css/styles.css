@@ -59,7 +59,7 @@ img {
 }
 .menu {
    display: flex;
-   margin-right: 40px;
+   gap: 40px;
 }
  .nav-logo {
      display: flex;
@@ -103,7 +103,7 @@ img {
 }
 .address-contacts {
     display: flex;
-    margin-right: 40px
+    gap: 40px;
 }
 
 .address-link {
