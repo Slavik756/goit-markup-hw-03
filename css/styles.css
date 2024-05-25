@@ -30,7 +30,6 @@ img {
 }
 .container {
     width: 1158px;
-    
     margin: 0 auto;
     padding: 0 15px;
 
@@ -166,8 +165,12 @@ img {
    
    
 }
+.cont-mar {
+    margin-bottom: 8px;
+}
 .content-main {
     width: calc((100% - 72px) / 4);
+
 }
 .content-info {
     font-size: 16px;
