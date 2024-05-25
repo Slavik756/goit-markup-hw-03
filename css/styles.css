@@ -162,12 +162,10 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
      font-weight: bold;
-   
-   
-}
-.cont-mar {
     margin-bottom: 8px;
+   
 }
+
 .content-main {
     width: calc((100% - 72px) / 4);
 
