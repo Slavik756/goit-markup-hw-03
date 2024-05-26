@@ -115,6 +115,8 @@ img {
     max-width: 496px;
     display: block;
         margin-bottom: 48px;
+        margin-right: auto;
+            margin-left: auto;
    
 }
 
@@ -166,7 +168,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
      font-weight: bold;
-    text-align: center;
+   
 margin-bottom: 8px;
 }
 
@@ -176,7 +178,7 @@ margin-bottom: 8px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-align: center;
+    
     margin-bottom: 8px;
 }
 
